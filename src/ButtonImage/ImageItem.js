@@ -7,7 +7,7 @@ export default class ImageItem extends Component {
       <button
         className="btn btn-light my-3"
         onClick={() => {
-          console.log("1");
+          console.log(this.props.item);
           this.props.handleChange(this.props.item);
         }}
       >
