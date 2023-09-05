@@ -10,9 +10,9 @@ export default class Glass extends Component {
     typeGlass: glass[0],
   };
   handleChangeGlass = (selectedGlass) => {
-    this.setState = {
+    this.setState({
       typeGlass: selectedGlass,
-    };
+    });
   };
   render() {
     return (
